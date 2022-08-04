@@ -1,0 +1,155 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Josefin Sans', sans-serif;
+	box-sizing: border-box;
+}
+html{
+	scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+}
+li{
+    display: inline;
+    padding: 10px;
+    font-size:14px;
+    cursor: pointer;
+    
+    
+}
+.header li:hover{
+    border-bottom: 5px solid rgb(212, 20, 20);
+}
+
+.logo{
+    width:90px;
+    margin-left: 300px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.main-menu .main {
+    display: inline;
+    padding: 20px;
+    font-size:13px;
+    cursor: pointer;
+    justify-content: center;
+    margin: 260px;
+
+
+   
+}
+.main-menu li {
+    
+    font-size: 20px;
+    font-variant: small-caps;
+    font-weight:bold;
+    padding: 5px;
+    margin: 10px;
+
+    
+}
+
+.donation{
+   padding: 10px 30px;
+   margin-left: 200px;
+   color: white;
+   background-color:rgb(212, 20, 20);
+   border: 0;
+   font-variant: small-caps;
+   box-shadow: inset 0 0 0 0.01px rgb(212, 20, 20);
+   text-transform: uppercase;
+   font-family: 'open_sanssemibold',sans-serif;
+   cursor: pointer;
+   transition: all 0.2s linear 0s;
+}
+  
+.main li:hover{
+    border-bottom: 5px solid rgb(212, 20, 20);
+   
+   
+    
+}
+.arms{
+   width: 2200px;
+     height: 817px;
+     padding: 0;
+     margin: 0;
+}
+
+   
+
+.text1{
+    background-color: none;
+    color: #ffffff;
+    width: 800px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top:90%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    line-height: 30px;
+    font-variant: small-caps;
+}
+.text2{
+    background-color: none;
+    color: #ffffff;
+    width: 800px;
+    height: 100px;
+    position: absolute;
+    left: 60%;
+    top: 97%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    line-height: 30px;
+    font-variant: small-caps;
+
+    
+}
+
+.info{
+    background-color: rgb(212, 20, 20);
+}
+.info p{
+    text-align: center;
+    padding: 30px;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    letter-spacing: 3px;
+}
+
+     .donation:hover {
+      text-indent: 30px;
+     }
+      
+     .block2{
+        width: 100%;
+        height: 100px;
+       
+     }
+
+     .block2 p{
+        text-align: center;
+        letter-spacing: 1px;
+        font-size: 20px;
+     }
+   .read-more{
+        margin-left: 860px;
+        margin-top: 50px;
+        border: 2px solid rgb(212, 20, 20);
+        padding: 10px 40px;
+        font-size: 20px;
+        color: rgb(212, 20, 20);
+        cursor: pointer;
+        transition: all 0.2s linear 0s;
+        background-color: white;
+     }
+     .read-more:hover{
+        text-indent: 30px;
+     }
+     
+    
+  
