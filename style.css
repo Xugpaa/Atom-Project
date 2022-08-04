@@ -149,7 +149,55 @@ li{
      }
      .read-more:hover{
         text-indent: 30px;
+        cursor: pointer;
      }
+    
+    
+     .img1{
+        margin-left: 250px;
+        margin-top: 150px;
+        width: 725px;
+        height: 350px;
+        cursor: pointer;
+        
+     }
+     .img2{
+        
+            margin-left: 20px;
+            margin-top: 150px;
+            width: 350px;
+            height: 350px;
+            cursor: pointer;
+     }
+     .img3{
+        
+        margin-left: 20px;
+        margin-top: 150px;
+        width: 350px;
+        height: 350px;
+        cursor: pointer;
+ }.img4{
+        margin-left: 250px;
+            margin-top: 20px;
+            width: 350px;
+            height: 250px;
+            cursor: pointer;
+ }
+ .img5{
+         margin-left: 20px;
+            margin-top: 20px;
+            width: 350px;
+            height: 250px;
+            cursor: pointer;
+ }
+ 
+ .img6{
+    margin-left: 20px;
+    margin-top: 15px;
+    width: 725px;
+    height: 250px;
+    cursor: pointer;
+ }
      
     
   
