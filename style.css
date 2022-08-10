@@ -15,7 +15,7 @@ html {
 
 body {
     overflow-x: hidden;
-    
+ 
 }
 
 li {
@@ -257,7 +257,7 @@ li {
 
 .galleryItem p {
     font-size: 20px;
-    top: 179%;
+    top: 169%;
     margin-left: 65px;
     position: absolute;
     color: white;
@@ -279,7 +279,7 @@ li {
     transition: .5s ease;
     opacity: 0;
     position: absolute;
-    top: 159%;
+    top: 149%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
@@ -351,7 +351,7 @@ li {
 
 .galleryItem2 p {
     font-size: 20px;
-    top: 180%;
+    top: 170%;
     left: 72%;
     position: absolute;
     color: white;
@@ -369,7 +369,7 @@ li {
 
 .galleryItem3 p {
     font-size: 20px;
-    top: 210%;
+    top: 200%;
     left: 14%;
     position: absolute;
     color: white;
@@ -381,19 +381,19 @@ li {
 
 .galleryItem4 .img5 {
     margin-left: 20px;
-    margin-top: 20px;
+    margin-top: -70px;
     width: 362px;
     height: 250px;
     cursor: pointer;
     position: absolute;
-    top: 186.7%;
+    top: 189.7%;
     left: 31%;
 
 }
 
 .galleryItem4 p {
     font-size: 20px;
-    top: 210%;
+    top: 200%;
     left: 33%;
     position: absolute;
     color: white;
@@ -401,12 +401,12 @@ li {
 
 .galleryItem5 .img6 {
     margin-left: 20px;
-    margin-top: 20px;
+    margin-top: -70px;
     width: 725px;
     height: 250px;
     cursor: pointer;
     position: absolute;
-    top: 186.7%;
+    top: 189.7%;
     left: 51%;
 
 
@@ -414,7 +414,7 @@ li {
 
 .galleryItem5 p {
     font-size: 20px;
-    top: 211.5%;
+    top: 200%;
     left: 53%;
     position: absolute;
     color: white;
@@ -1208,6 +1208,11 @@ footer {
     width: 50px;
     height: 30px;
 }
+.contact i{
+    color:rgb(212, 20, 20);
+    font-size: 30px; 
+    
+}
 
 @media only screen and (max-width : 940px),
 only screen and (max-device-width : 940px) {
@@ -1264,9 +1269,9 @@ only screen and (max-device-width : 850px) {
     
     }
     .galleryItem .img1 {
-        margin-left: 250px;
+        margin-left: 240px;
         margin-top: -30px;
-        width: 882px;
+        width: 900px;
         height: 450px;
     }
     
@@ -1290,7 +1295,7 @@ only screen and (max-device-width : 850px) {
     }
     
     .galleryItem2 .img3 {
-        margin-left: 245px;
+        margin-left: 235px;
         margin-top: 600px;
         width: 400px;
         height: 350px;
@@ -1299,7 +1304,7 @@ only screen and (max-device-width : 850px) {
     
     .galleryItem2 p {
         font-size: 20px;
-        top: 180%;
+        top: 150%;
         left: 72%;
         position: absolute;
         color: white;
@@ -1316,7 +1321,7 @@ only screen and (max-device-width : 850px) {
     
     .galleryItem3 p {
         font-size: 20px;
-        top: 210%;
+        top: 190%;
         left: 14%;
         position: absolute;
         color: white;
@@ -1326,13 +1331,13 @@ only screen and (max-device-width : 850px) {
     }
     
     .galleryItem4 .img5 {
-        margin-left: 800px;
-        width: 980px;
+        margin-left: 815px;
+        width: 1010px;
         height: 420px;
         cursor: pointer;
         position: absolute;
-        top: 214.7%;
-        left: -72%;
+        top: 225.7%;
+        left: -75%;
     }
     
     .galleryItem4 p {
@@ -1346,12 +1351,12 @@ only screen and (max-device-width : 850px) {
     .galleryItem5 .img6 {
         margin-left: -148px;
         margin-top: 1150px;
-        width: 990px;
+        width: 1010px;
         height: 450px;
         cursor: pointer;
         position: absolute;
         top: 186.7%;
-        left: 51%;
+        left: 49%;
     }
     
     .galleryItem5 p {
@@ -1367,22 +1372,24 @@ only screen and (max-device-width : 850px) {
     .copyright {
         background-color: rgb(212, 20, 20);
         text-align: center;
-        padding: 30px;
+        font-size: 25px;
+        padding: 100px;
         position: relative;
-        top: 610%;
+        top: 640%;
         position: absolute;
         width: 220%;
-        left: 0%;
+        left: -10%;
         height: 200px;
     }
     footer {
-        top: 550%;
+        top: 580%;
         position: absolute;
         background-color: #dfdfdf;
         width: 220%;
         height: 520px;
         left: 0;
     }
+
     h3 {
         color: rgb(212, 20, 20);
         text-transform: uppercase;
@@ -1390,6 +1397,12 @@ only screen and (max-device-width : 850px) {
         margin-top: 650px;
         margin-left: 270px;
         text-align: center;
+    }
+    .about .logo {
+        margin-top: 50px;
+    }
+    .about p{
+        overflow-wrap: break-word;
     }
     .guide p {
         margin-top: 10px;
@@ -1422,8 +1435,148 @@ only screen and (max-device-width : 850px) {
         margin-left: 250px;
         font-size: 2em;
     }
-
+    .testim .wrap {
+        position: relative;
+        width: 100%;
+        max-width: 900px;
+        padding: 40px 20px;
+        margin: auto;
+        top: 2100px;
+        left: 280px;
+    }
+    .services h2 {
+        color: rgb(212, 20, 20);
+        text-transform: uppercase;
+        cursor: pointer;
+        position: absolute;
+        top: -22px;
+    }
+    .services {
+        text-align: left;
+        margin-left: 900px;
+        position: absolute;
+        top: 14%;
+        left: -390px;
+    }
+    .contact p {
+        position: absolute;
+        margin-left: 350px;
+        top: 30%;
+        cursor: pointer;
+    }
+    #phone1 {
+        position: absolute;
+        top: 30%;
+        cursor: pointer;
+        margin-left: 60.5%;
+    }
+    #email {
+        position: absolute;
+        top: 45%;
+        cursor: pointer;
+        margin-left: 60.5%;
+    }
+    .payment-methods p {
+        position: absolute;
+        top: 65%;
+        cursor: pointer;
+        margin-left: 60.5%;
+    }
+    .phone i {
+        position: absolute;
+        top: 30%;
+        font-size: 30px;
+        color: rgb(212, 20, 20);
+        margin-left: 58%;
+        cursor: pointer;
+    }
+    .email i{
+        margin-left: 58%;
+    }
+    .payment2{
+        width: 100px;
+        position: absolute;
+        top: 70%;
+        cursor: pointer;
+        margin-left: 60.5%;
+        height: 30px;
+    }
+    .payment3{
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 70%;
+        cursor: pointer;
+        margin-left: 67%;
+        width: 50px;
+        height: 30px;
+    }
+    .contact i{
+        position: absolute;
+        top: 30%;
+        font-size: 30px;
+        color: rgb(212, 20, 20);
+        left: 310px;
+        cursor: pointer;
+    }
+    .hr1{
+        width: 190%;
+    }
+    .logo {
+        width: 150px;
+        margin-left: 150px;
+        padding-top: 10px;
+        cursor: pointer;
+    }
+    li {
+        display: inline;
+        padding: 10px;
+        font-size: 95%;
+        cursor: pointer;
+    }
+    .donation {
+        margin-left: 1050px;
+        font-size: 20px;
+    }
+    .main-menu li {
+        font-size: 20px;
+        font-variant: small-caps;
+        font-weight: bold;
+        padding: 10px;
+        position: relative;
+        left: 90px;
+        margin: 30px;
+    }
+    li.one{
+        position: relative;
+        left: -230px;
+    }
+    li.two{
+        position: relative;
+        left: -220px;
+    }
+    li.three{
+        position: relative;
+        top: 30px;
+    }
+    li.four{
+        position: relative;
+        top: 30px;
+    }
+    li.five{
+        position: relative;
+        top: 30px;
+    }
+    .block2 p {
+        text-align: center;
+        letter-spacing: 1px;
+        font-size: 20px;
+        position: absolute;
+        left: 250px;
+    }
 }
+
+
 
 @media only screen and (max-width : 530px),
 only screen and (max-device-width : 530px) {
